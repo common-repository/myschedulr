@@ -1,0 +1,103 @@
+// Variables
+$sb-layout-btn-color: #1e1e1e;
+$sb-layout-btn-bg: #F7F7F7;
+$sb-layout-btn-border: 1px solid #CCCCCC;
+$sb-layout-btn-book-color: #F0F0F0;
+$sb-layout-btn-book-border: 1px solid #0000001A;
+
+// Sidebar
+.nms-sb-layout-btn {
+  border-radius: 0 2px 2px 0;
+  box-shadow: inset 0 0 0 1px $sb-layout-btn-color;
+  color: $sb-layout-btn-color;
+  width: 120px;
+  height: 39px;
+  justify-content: center;
+}
+
+.nms-sb-cl-btn {
+  width: 82px;
+  height: 42.05px;
+  background: $sb-layout-btn-bg;
+  border: $sb-layout-btn-border;
+  box-sizing: border-box;
+  box-shadow: none !important;
+  justify-content: center;
+  font-weight: bold;
+
+  &:first-child {
+	border-radius: 7px 0 0 7px !important;
+  }
+
+  &:last-child {
+	border-radius: 0 7px 7px 0 !important;
+  }
+}
+
+.nms-sb-align-select {
+  .components-button.is-small {
+  	font-size: 13px;
+  }
+}
+
+// Booking Button
+.nms-color-viewer {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  span {
+	color: white !important;
+  }
+}
+
+.nms-hide-cp-link,  {
+  .components-button.is-link {
+	color: white !important;
+	visibility: hidden;
+  }
+}
+
+.nms-input-size {
+  width: 130px;
+  margin: 0 !important;
+}
+
+.nms-color-container {
+  width: 243px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  background-color: $sb-layout-btn-book-color;
+}
+
+.nms-color-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 12px;
+  border-color: $sb-layout-btn-book-border;
+
+  &:hover {
+	transform: scale(1.2);
+	border: 0.5px solid $sb-layout-btn-border;
+  }
+}
+
+// Remove Transform Button CSS
+[aria-label="MySchedulr"] {
+  display: none !important;
+}
+
+// Resize Drag Button CSS
+.block-editor-block-mover .block-editor-block-mover__drag-handle {
+  min-width: 46px !important;
+}
+
+.block-editor-block-toolbar__block-controls .block-editor-block-mover {
+  margin-left: 0 !important;
+}
+

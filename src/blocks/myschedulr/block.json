@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "newfold/myschedulr",
+	"version": "0.1.0",
+	"title": "MySchedulr",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Accept online appointments directly from your website.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "myschedulr",
+	"editorScript": "file:../../../assets/js/block/ms-block.js",
+	"editorStyle": "file:../../../assets/js/block/ms-block.css",
+	"style": "file:../../../assets/js/block/style-ms-block.css"
+}
